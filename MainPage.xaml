@@ -1,0 +1,13 @@
+<StackLayout>
+    <Label x:Name="label1" FontSize="40" FontAttributes="Bold" BackgroundColor="Black" Text="0"
+     TextColor="Yellow" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
+     LineBreakMode="NoWrap" Grid.Row="0" Grid.Column="0" Padding="20,0"/>
+    
+    <Button Text="ポイントを追加" Grid.Row="2" Grid.Column="0"
+      BackgroundColor="White" TextColor="Black"
+      FontSize="36" CornerRadius="0" Clicked="Button1_Click" />
+    
+    <Button Text="ポイントを使用" Grid.Row="2" Grid.Column="1"
+      BackgroundColor="White" TextColor="Black"
+      FontSize="36" CornerRadius="0" Clicked="Button2_Click" />
+</StackLayout>
